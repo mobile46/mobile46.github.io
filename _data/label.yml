@@ -1,0 +1,12 @@
+panel:
+  lastmod: "Yakın Zamanda Güncellenenler"
+  trending_tags: "Popüler Etiketler"
+  toc: "İçerikler"
+
+post:
+  relate_posts: "İlgili Gönderiler"
+  button:
+    next: Sonraki
+    previous: Önceki
+
+search_hint: "Ara"   # text show on search bar

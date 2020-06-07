@@ -1,0 +1,23 @@
+-
+  name: Ana sayfa
+  icon: "fas fa-home"
+-
+  name: Kategoriler
+  icon: "fas fa-stream"
+  path: tabs
+  url: categories
+-
+  name: "Etiketler"
+  icon: "fas fa-tags"
+  path: tabs
+  url: tags
+-
+  name: "Arşiv"
+  path: tabs
+  url: archives
+  icon: "fas fa-archive"
+-
+  name: "Hakkında"
+  icon: "fas fa-info"
+  path: tabs
+  url: about
