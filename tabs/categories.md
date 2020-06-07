@@ -45,11 +45,9 @@ title: Kategoriler
         {% assign top_posts_size = site.categories[category_name] | size %}
         <span class="text-muted small font-weight-light">
         {% if sub_categories_size > 0 %}
-          {{ sub_categories_size }}
-          {% if sub_categories_size > 1 %}categories{% else %}category{% endif %},
+          {{ sub_categories_size }} kategori,
         {% endif %}
-          {{ top_posts_size }}
-          post{% if top_posts_size > 1 %}s{% endif %}
+          {{ top_posts_size }} yazı
         </span>
       </span>
 
@@ -74,9 +72,7 @@ title: Kategoriler
           <a href="{{ site.baseurl }}/categories/{{ sub_category | replace: ' ', '-' | downcase | url_encode }}/"
             class="ml-1 mr-2">{{ sub_category }}</a>
           {% assign posts_size = site.categories[sub_category] | size %}
-          <span class="text-muted small font-weight-light">{{ posts_size }}
-            post{% if posts_size > 1 %}s{% endif %}
-          </span>
+          <span class="text-muted small font-weight-light">{{ posts_size }} yazı</span>
         </li>
         {% endfor %}
       </ul>

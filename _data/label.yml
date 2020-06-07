@@ -4,7 +4,7 @@ panel:
   toc: "İçerikler"
 
 post:
-  relate_posts: "İlgili Gönderiler"
+  relate_posts: "İlgili Yazılar"
   button:
     next: Sonraki
     previous: Önceki
